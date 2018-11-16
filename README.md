@@ -20,6 +20,10 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
+##to set the map tile server
+open ./components/SpinalMap.vue 
+    GoTo line 5ish and decide to crank it to 11 and get a free thunderforest API key or play it safe and just comment out the OSM map server
+
 #to run the app 
 go to ./spinalMap
     start couchdb:
